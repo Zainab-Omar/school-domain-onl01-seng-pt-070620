@@ -8,5 +8,7 @@ class School
     roster[grade] ||= []
     roster[grade] << student_name
   end
-  def grade()
+  def grade(student_grade)
+    roster[grade]
+  end
 end
